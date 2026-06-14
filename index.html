@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saroha Consultancy</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f8fafc;
+    color:#333;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    background:linear-gradient(rgba(15,23,42,.8), rgba(15,23,42,.8)),
+    url('https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1600');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:#f59e0b;
+    color:white;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.section{
+    padding:70px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:12px;
+}
+
+.contact{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+}
+
+footer{
+    background:#020617;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    .about{
+        grid-template-columns:1fr;
+    }
+
+    .hero h1{
+        font-size:36px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">SAROHA CONSULTANCY</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Your Career Starts Here</h1>
+    <p>Connecting talented candidates with top employers across India.</p>
+    <a href="#contact" class="btn">Apply Now</a>
+</section>
+
+<section class="section" id="services">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services">
+        <div class="card">
+            <h3>Airport Jobs</h3>
+            <p>Recruitment for airport loaders, customer service, security and ground staff.</p>
+        </div>
+
+        <div class="card">
+            <h3>Data Entry Jobs</h3>
+            <p>Placement support for data entry operators and office assistants.</p>
+        </div>
+
+        <div class="card">
+            <h3>Security Recruitment</h3>
+            <p>Professional staffing solutions for security companies.</p>
+        </div>
+
+        <div class="card">
+            <h3>Career Guidance</h3>
+            <p>Helping candidates find the right opportunity for long-term growth.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <div class="about">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200" alt="Office">
+
+        <div>
+            <h2>About Saroha Consultancy</h2>
+            <br>
+            <p>
+                Saroha Consultancy is dedicated to connecting job seekers
+                with trusted employers. We provide recruitment solutions,
+                career support and staffing services across multiple industries.
+            </p>
+            <br>
+            <p>
+                Our mission is to make hiring simple, transparent and efficient.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="section contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 7838005192</p>
+    <p>📧 sarohaconsultancy@gmail.com</p>
+    <p>Delhi, India</p>
+</section>
+
+<footer>
+    © 2026 Saroha Consultancy. All Rights Reserved.
+</footer>
+
+</body>
+</html>
