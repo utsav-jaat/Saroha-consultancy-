@@ -14,11 +14,7 @@ Saroha Consultancy is a recruitment and staffing solutions website built with pu
 
 ---
 
-## File Structure
-
-### 1. **index.html** (Main Landing Page)
-- **Line 215:** Closing `</html>` tag
-- **Blame URL:** https://github.com/utsav-jaat/Saroha-consultancy-/blame/main/index.html#L215
+https://github.com/utsav-jaat/Saroha-consultancy-/blame/main/index.html#L215
 
 **Key Sections:**
 - **Header:** Navigation menu with logo and links (Home, Services, Jobs, Contact)
@@ -118,8 +114,9 @@ G-P8EX4GEDRG ed2eb20ee8910fcbdb3eaa4c1237512bc4e4331c
 **Changes:**
 1. Created separate `jobs.html` for job gallery
 2. Cleaned up `index.html` - removed duplicate HTML document
-3. Fixed character encoding (₹ rupee symbol, emoji icons)
-4. Maintained responsive design across both pages
+3. https://utsav-jaat.github.io/Saroha-consultancy-/google1ee931805c93f87e.html
+4. Fixed character encoding (₹ rupee symbol, emoji icons)
+5. Maintained responsive design across both pages
 
 ---
 
