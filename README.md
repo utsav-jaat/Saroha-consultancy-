@@ -109,7 +109,15 @@ A dedicated page displaying all job openings in a gallery format.
 ## Recent Updates
 
 **Latest Commit:**
-G-P8EX4GEDRG ed2eb20ee8910fcbdb3eaa4c1237512bc4e4331c  
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P8EX4GEDRG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P8EX4GEDRG');
+</scriped2eb20ee8910fcbdb3eaa4c1237512bc4e4331c
 **Message:** Fix: Remove duplicate HTML document - split into separate files  
 **Changes:**
 1. Created separate `jobs.html` for job gallery
