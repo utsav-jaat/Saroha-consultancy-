@@ -112,7 +112,8 @@ A dedicated page displaying all job openings in a gallery format.
 
 ## Recent Updates
 
-**Latest Commit:** ed2eb20ee8910fcbdb3eaa4c1237512bc4e4331c  
+**Latest Commit:**
+G-P8EX4GEDRG ed2eb20ee8910fcbdb3eaa4c1237512bc4e4331c  
 **Message:** Fix: Remove duplicate HTML document - split into separate files  
 **Changes:**
 1. Created separate `jobs.html` for job gallery
