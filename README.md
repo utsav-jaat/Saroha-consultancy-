@@ -125,7 +125,15 @@ A dedicated page displaying all job openings in a gallery format.
 3. https://utsav-jaat.github.io/Saroha-consultancy-/google1ee931805c93f87e.html
 4. Fixed character encoding (₹ rupee symbol, emoji icons)
 5. Maintained responsive design across both pages
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P8EX4GEDRG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-P8EX4GEDRG');
+</script>
 ---
 
 ## Language Composition
