@@ -134,6 +134,15 @@ A dedicated page displaying all job openings in a gallery format.
 
   gtag('config', 'G-P8EX4GEDRG');
 </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GT-NMCRR667"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GT-NMCRR667');
+</script>
 ---
 
 ## Language Composition
